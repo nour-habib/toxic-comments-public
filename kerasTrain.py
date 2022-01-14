@@ -68,16 +68,7 @@ def runClassifier(modelType, useGloVE, bidirectional):
         embedding_matrix = None
 
     # Build model
-    if modelType == "LSTM" or modelType == "RNN" or modelType == "GRU":
-        model = kerasModels.RNNBaselineModels(maxlen, max_features, embed_size, model_name=modelType, bidirectional=bidirectional, embedding_matrix=embedding_matrix)
-    elif modelType == "CNN":
-        model = kerasModels.CNNBaseline(maxlen, max_features, embed_size, embedding_matrix)
-    elif modelType == "FC":
-        model = kerasModels.FullyConnectedBaseline(maxlen, max_features, embed_size, embedding_matrix)
-
-    model.compile(loss='binary_crossentropy',
-                    optimizer=optimizers.Adam(learning_rate =0.01),
-                    metrics=['accuracy'])
+    #redacted
 
     batch_size = 32
     epochs = 10
