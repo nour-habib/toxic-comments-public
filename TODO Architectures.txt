@@ -1,0 +1,34 @@
+## Things to test/TODO
+
+LSTM
+
+Bidirectional LSTM
+
+LSTM + GLoVE embeddings
+
+LSTM + BERT Embeddings
+
+Simple RNN
+
+Bidirectional RNN
+
+GRU
+
+BiDirectional GRU
+
+CNN?
+
+Fully connected network
+
+Naive Bayes Linear Regression
+
+N-Gram counting?
+
+
+Normalized hyperparameters vs hyperparameters individually tuned?
+
+Normalized RNN architectures?
+
+Get incorrect validation predictions, which classifications does the network struggle on?
+
+If the accuracy is high on all of them, we can compare loss?

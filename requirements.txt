@@ -1,0 +1,8 @@
+numpy
+matplotlib>=2.0.2
+tqdm>=4.19.5
+pandas
+keras
+torch
+sklearn
+tensorflow
