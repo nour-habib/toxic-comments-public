@@ -19,6 +19,7 @@ The goal for mutli-label classification is to determine if a given comment is to
 • Threat: A statement with the intention to inflict injury, death, or other hostile action on another person<br>
 • Insult: An expression or statement that is disrespectful or scornful<br>
 • Identity hate: Hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society<br>
+
 A comment may be categorized into multiple categories. For example, a particular toxic comment may be further classified as a threat and an obscene comment.
 
 <h2> Results </h2>
