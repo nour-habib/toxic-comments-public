@@ -5,7 +5,7 @@ Group members: Nathan Cheung, Gregory Dewar, Fan-Yu Meng, Nour Habib
 
 <h2> Introduction </h2>
 
-This project evaluates the effectiveness of multiple methods on multi-label classification of toxicity in online comments. We compare the accuracy, precision, recall and F1-scores of Recurrent Neural Networks (RNN), Long Short-Term Memory Networks (LSTM), Gated Recurring Unit Networks (GRU), Convolutional Neural Networks (CNN), Fully Connected Neural Networks (FCN), and the Naive Bayes Classifier. The RNN based Neural Networks were trained as both bi-directional and uni-directional, and each Neural Network was trained with and without the GloVe word embeddings. We evaluated our methods on Wikipedia comments sourced by the Kaggle Toxic Comment Classification Challenge dataset. Our results found that the bi-directional and uni-directional LSTM networks offered the best F1-score, and therefore is the most effective at multi-label classification. There was no perceived difference in performance between uni-directional and bi- directional LSTM Networks.
+This project evaluates the effectiveness of multiple methods on multi-label classification of toxicity in online comments. We compare the accuracy, precision, recall and F1-scores of **Recurrent Neural Networks (RNN)**, **Long Short-Term Memory Networks (LSTM)**, **Gated Recurring Unit Networks (GRU)**, **Convolutional Neural Networks (CNN)**, **Fully Connected Neural Networks (FCN)**, and the **Naive Bayes Classifier**. The RNN based Neural Networks were trained as both bi-directional and uni-directional, and each Neural Network was trained with and without the GloVe word embeddings. We evaluated our methods on Wikipedia comments sourced by the Kaggle Toxic Comment Classification Challenge dataset. Our results found that the bi-directional and uni-directional LSTM networks offered the best F1-score, and therefore is the most effective at multi-label classification. There was no perceived difference in performance between uni-directional and bi- directional LSTM Networks.
 
 <h2> Approach </h2>
 
@@ -13,7 +13,7 @@ This project studies the performance of multiple Neural Network models (LSTM, RN
 
 <h3> Multi-Label Classification </h3> 
 
-The goal for mutli-label classification is to determine if a given comment is toxic or non-toxic. If the comment is classified as toxic, we can potentially further categorize the comment into 5 additional categories:<br>
+The goal for multi-label classification is to determine if a given comment is toxic or non-toxic. If the comment is classified as toxic, we can potentially further categorize the comment into 5 additional categories:<br>
 
 • Severely Toxic: Extremely hateful comments. Usage of slurs, derogatory and offensive words.<br>
 • Obscene: Offensive or disgusting statements by accepted standards of morality and decency, usually in the portrayal of sexual matters<br>
