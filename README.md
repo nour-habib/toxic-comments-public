@@ -15,11 +15,11 @@ This project studies the performance of multiple Neural Network models (LSTM, RN
 
 The goal for multi-label classification is to determine if a given comment is toxic or non-toxic. If the comment is classified as toxic, we can potentially further categorize the comment into 5 additional categories:<br>
 
-• Severely Toxic: Extremely hateful comments. Usage of slurs, derogatory and offensive words.<br>
-• Obscene: Offensive or disgusting statements by accepted standards of morality and decency, usually in the portrayal of sexual matters<br>
-• Threat: A statement with the intention to inflict injury, death, or other hostile action on another person<br>
-• Insult: An expression or statement that is disrespectful or scornful<br>
-• Identity hate: Hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society<br>
+• **Severely Toxic**: Extremely hateful comments. Usage of slurs, derogatory and offensive words.<br>
+• **Obscene**: Offensive or disgusting statements by accepted standards of morality and decency, usually in the portrayal of sexual matters<br>
+• **Threat**: A statement with the intention to inflict injury, death, or other hostile action on another person<br>
+• **Insult**: An expression or statement that is disrespectful or scornful<br>
+• **Identity hate**: Hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society<br>
 
 A comment may be categorized into multiple categories. For example, a particular toxic comment may be further classified as a threat and an obscene comment.
 
