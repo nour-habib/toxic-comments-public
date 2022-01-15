@@ -8,7 +8,7 @@ This project evaluates the effectiveness of multiple methods on multi-label clas
 
 <h2> Approach </h2>
 
-This project studies the performance of multiple Neural Network models (LSTM, RNN, GRU, CNN, FCN) on multi-label classification. The RNN based neural networks (LSTM, RNN, GRU) are compared using bi-directional and uni- directional models. Each neural network is trained and compared with and without word level GloVe embeddings. Additionally, we also implement a naive bayes classifier to determine if statistical classification methods are still viable today in a field slowly being overtaken by machine learning. Our approaches are detailed below.
+This project studies the performance of multiple Neural Network models (LSTM, RNN, GRU, CNN, FCN) on multi-label classification. The RNN based neural networks (LSTM, RNN, GRU) are compared using bi-directional and uni- directional models. Each neural network is trained and compared with and without word level GloVe embeddings. Additionally, we also implement a Naive Bayes classifier to determine if statistical classification methods are still viable today in a field slowly being overtaken by machine learning. Our approaches are detailed below.
 
 <h3> Multi-Label Classification </h3> 
 
