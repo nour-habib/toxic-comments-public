@@ -8,17 +8,17 @@ This project evaluates the effectiveness of multiple methods on multi-label clas
 
 <h2> Approach </h2>
 
-This project studies the performance of mul- tiple Neural Network models (LSTM, RNN, GRU, CNN, FCN) on multi-label classification. The RNN based neural networks (LSTM, RNN, GRU) are compared using bi-directional and uni- directional models. Each neural network is trained and compared with and without word level GloVe embeddings. Additionally, we also implement a naive bayes classifier to determine if statistical clas- sification methods are still viable today in a field slowly being overtaken by machine learning. Our approaches are detailed below.
+This project studies the performance of multiple Neural Network models (LSTM, RNN, GRU, CNN, FCN) on multi-label classification. The RNN based neural networks (LSTM, RNN, GRU) are compared using bi-directional and uni- directional models. Each neural network is trained and compared with and without word level GloVe embeddings. Additionally, we also implement a naive bayes classifier to determine if statistical classification methods are still viable today in a field slowly being overtaken by machine learning. Our approaches are detailed below.
 
 <h3> Multi-Label Classification </h3> 
 
 The goal for mutli-label classification is to determine if a given comment is toxic or non-toxic. If the comment is classified as toxic, we can potentially further categorize the comment into 5 additional categories:
 • Severely Toxic: Extremely hateful comments. Usage of slurs, derogatory and offensive words.
-• Obscene: Offensive or disgusting statements by accepted standards of morality and de- cency, usually in the portrayal of sexual mat- ters
-• Threat: A statement with the intention to in- flict injury, death, or other hostile action on another person
-• Insult: An expression or statement that is dis- respectful or scornful
-• Identity hate: Hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orien- tation or any other designated sector of society
-A comment may be categorized into multiple categories. For example, a particular toxic com- ment may be further classified as a threat and an obscene comment.
+• Obscene: Offensive or disgusting statements by accepted standards of morality and decency, usually in the portrayal of sexual matters
+• Threat: A statement with the intention to inflict injury, death, or other hostile action on another person
+• Insult: An expression or statement that is disrespectful or scornful
+• Identity hate: Hatred, hostility, or violence towards members of a race, ethnicity, nation, religion, gender, gender identity, sexual orientation or any other designated sector of society
+A comment may be categorized into multiple categories. For example, a particular toxic comment may be further classified as a threat and an obscene comment.
 
 <h2> Results </h2>
 
