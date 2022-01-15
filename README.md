@@ -1,6 +1,7 @@
 <h1>Toxic Comment Classification</h1>
 
 This is a group project for a 4th year level course in Computational Linguistics.
+Group members: Nathan Cheung, Gregory Dewar, Fan-Yu Meng, Nour Habib
 
 <h2> Introduction </h2>
 
